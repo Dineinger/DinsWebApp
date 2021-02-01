@@ -1,0 +1,12 @@
+/.vs/
+/src/.vs/
+/src/Application/bin/
+/src/Application/obj/
+/src/Lib.Components/bin/
+/src/Lib.Components/obj/
+/src/Lib.Core/bin/
+/src/Lib.Core/obj/
+/src/Lib.Infrastructure/bin/
+/src/Lib.Infrastructure/obj/
+/src/WebUI/bin/
+/src/WebUI/obj/
