@@ -1,0 +1,26 @@
+﻿section.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+
+    background: #00f6;
+    margin: 1em 0;
+    padding: 1em;
+
+    color: #fff;
+}
+
+    section.info div {
+        flex: 1 1 auto; /*  Stretching: */
+        flex: 0 1 auto; /*  No stretching: */
+        margin: 5px;
+    }
+
+        section.info div.info-symbole {
+            margin: 2em;
+        }
+
+        section.info div.info-content {
+
+        }
+

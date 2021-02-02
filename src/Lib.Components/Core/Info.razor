@@ -1,0 +1,30 @@
+﻿<section class="info">
+    <style>
+    @*
+        Blazer seems to assign hashcodes to the Info.razor.css file info.
+        But imported Tags don't have them.
+
+        Here are all styles for imported Tags, the rest is in the Info.razor.css file.
+    *@
+        section.info div.info-content h1 {
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+
+        section.info div.info-content p {
+            font-size: 1em;
+            font-weight: 400;
+        }
+    </style>
+    <div class="info-symbole">
+        [info]
+    </div>
+    <div class="info-content">
+        @ChildContent
+    </div>
+</section>
+
+@code {
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+}

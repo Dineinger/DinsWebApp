@@ -1,0 +1,27 @@
+﻿<article class="about">
+
+    @if (IsAboutWebsite)
+    {
+        <h1>About the Website</h1>
+
+        <p>
+            This Website is for test and learning purposes.<br />
+            <br />
+            This is a ASP.NET Blazer serverside Web App.
+        </p>
+    }
+
+</article>
+
+
+@code {
+    [Parameter]
+    public ContentType Content { get; set; }
+
+    public enum ContentType
+    {
+        AboutWebsite,
+    }
+
+    private bool IsAboutWebsite => Content == ContentType.AboutWebsite;
+}

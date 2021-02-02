@@ -7,11 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebUI", "WebUI\WebUI.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib.Components", "Lib.Components\Lib.Components.csproj", "{9D6E08E9-61AB-496B-B172-8108D4080583}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib.Core", "Lib.Core\Lib.Core.csproj", "{F7D331BA-8D5D-4A95-9887-36A30AC13335}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib.Core", "Lib.Core\Lib.Core.csproj", "{F7D331BA-8D5D-4A95-9887-36A30AC13335}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{EE8F0129-EFDA-442B-A6AB-9C4781F87977}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{EE8F0129-EFDA-442B-A6AB-9C4781F87977}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib.Infrastructure", "Lib.Infrastructure\Lib.Infrastructure.csproj", "{E047AB5C-14BE-4954-8873-8972B46B7359}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib.Infrastructure", "Lib.Infrastructure\Lib.Infrastructure.csproj", "{E047AB5C-14BE-4954-8873-8972B46B7359}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
